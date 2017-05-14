@@ -1,9 +1,12 @@
 import React from 'react';
 import { render } from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
 
-const App = ({greeting}) => <div>{ greeting }</div>;
+import App from './navigation/app';
 
 render(
-  <App greeting='Heyya, React!' />,
+  <Router>
+    <App />
+  </Router>,
   document.getElementById('root')
 );
