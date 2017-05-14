@@ -1,7 +1,16 @@
 const express = require('express');
+const path = require('path');
+const sass = require('node-sass-middleware');
+
 const app = express();
 
-app.use( express.static( __dirname + '/public' ) );
+// IMPORTANT: sass middleware must come BEFORE express.static!
+app.use( sass({
+  src: path.resolve('sass'),
+  dest: path.resolve( 'public' )
+}) );
+
+app.use( express.static( 'public' ) );
 
 const port = process.env.PORT || 8080;
 
