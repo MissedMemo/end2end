@@ -12,6 +12,7 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.15.2",
+    "node-sass-middleware": "^0.11.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-router-dom": "^4.1.1"
@@ -23,7 +24,6 @@
     "babel-preset-react": "^6.24.1",
     "chai": "^3.5.0",
     "mocha": "^3.3.0",
-    "node-sass-middleware": "^0.11.0",
     "nodemon": "^1.11.0",
     "webpack": "^2.5.1"
   }
