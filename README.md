@@ -6,13 +6,23 @@
 ###Implementation Details and Goals:
 
 &nbsp;&nbsp;&#10004;&nbsp;
-Yarn
+Documentation in MarkDown format
 <br>&nbsp;&nbsp;&#10004;&nbsp;
-Webpack 2
+Dependency management using Yarn
+<br>&nbsp;&nbsp;&#10004;&nbsp;
+npm build scripts (mimic "hot loading" via watch etc.)
+<br>&nbsp;&nbsp;&#10004;&nbsp;
+ES6 syntax used throughout
+<br>&nbsp;&nbsp;&#10004;&nbsp;
+ES7+ plugins (class properties and object spread)
+<br>&nbsp;&nbsp;&#10004;&nbsp;
+Bundling using Webpack 2
 <br>&nbsp;&nbsp;&#10004;&nbsp;
 Clean, intuitive project structure
 <br>&nbsp;&nbsp;&#10004;&nbsp;
-React router 4 (multiple 'page' views)
+Multi-"page" site design
+<br>&nbsp;&nbsp;&#10004;&nbsp;
+View navigation using react-router 4
 <br>&nbsp;&nbsp;&#10004;&nbsp;
 CSS preprocessor (Sass)
 <br>&nbsp;&nbsp;&#10004;&nbsp;
