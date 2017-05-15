@@ -9,7 +9,7 @@ import SomePage from '../some-feature/some-page';
 import AnotherPage from '../another-feature/another-page';
 
 
-export default () => <div>
+export default () => <div className="shared-layout">
   <Header />
     <div className='main-content'>
       <Route exact path="/" component={ Home } />

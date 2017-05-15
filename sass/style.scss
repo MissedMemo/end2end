@@ -1,5 +1,16 @@
-$yellow: lightgray;
+@import "base";
 
-body {
- background-color: $yellow;
+.shared-layout {
+  
 }
+
+.shared-header {
+  height: 100vh;
+  background-color: lightgreen
+}
+
+.shared-footer {
+  height: 100px;
+  background-color: lightblue;
+}
+

@@ -8,7 +8,7 @@ const CustomLink = (props) =>
 
 export default () => {
 
-  return <header className='sharedHeader'>
+  return <header className='shared-header'>
 
     <h1>Big Shared Header Across Routed Pages!</h1>
 
