@@ -1,24 +1,32 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
+const CustomLink = (props) =>
+  <NavLink {...props} activeStyle={{ backgroundColor: 'lightgreen' }} />;
+
+
 export default () => {
 
-  const activeLinkStyle = {
-    backgroundColor: 'red'
-  };
-
   return <header className='sharedHeader'>
+
     <h1>Big Shared Header Across Routed Pages!</h1>
+
     <nav className='navMenu'>
-      <NavLink to="/" className='navlink' activeStyle={ activeLinkStyle } >
+
+      <CustomLink exact to="/" >
         Home
-      </NavLink>
-      <NavLink to="/some" className='navlink' activeStyle={ activeLinkStyle }>
+      </CustomLink>
+
+      <CustomLink to="/some" >
         Some Page
-      </NavLink>
-      <NavLink to="/another" className='navlink' activeStyle={ activeLinkStyle }>
+      </CustomLink>
+
+      <CustomLink to="/another" >
         Another Page
-      </NavLink>
+      </CustomLink>
+
     </nav>
+
   </header>;
 };
